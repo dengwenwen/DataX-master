@@ -121,7 +121,6 @@ public class HiveReader extends Reader {
             try {
                 ResultSet res = null;
                 res = this.stmt.executeQuery(sql);
-                // res.setFetchSize(1000);
                 ResultSetMetaData metaData = res.getMetaData();
                 while(res.next()) {
                     Record record = recordSender.createRecord();
