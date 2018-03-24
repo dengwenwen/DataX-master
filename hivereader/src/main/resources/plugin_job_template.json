@@ -1,0 +1,14 @@
+{
+        "name": "hivereader",
+    "parameter": {
+        "haveKerberos": "",
+        "kerberosKeytabFilePath": "",
+        "kerberosPrincipal": "",
+        "username": "",
+        "password": "",
+        "table": "",
+        "address": "",
+        "column": [],
+        "where": ""
+    }
+} 
